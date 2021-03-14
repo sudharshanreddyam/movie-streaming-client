@@ -1,0 +1,48 @@
+{
+  "name": "react-typescript-starter",
+  "version": "1.0.0",
+  "description": "Blank project with React, TypeScript, Redux and Styled Components",
+  "main": "index.js",
+  "repository": "https://github.com/sanderyt/react-typescript-starter.git",
+  "author": "Sander van Rijsoort <hallo@svanrijsoort.nl>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --open --hot --mode=development",
+    "build": "webpack --mode production --progress --hide-modules",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "create-component": "npx generate-react-cli component ${0}:create-component"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.9.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "regenerator-runtime": "^0.13.7",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.7",
+    "generate-react-cli": "^6.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  }
+}

@@ -1,0 +1,56 @@
+{
+	"movies": [
+		{
+			"id": "1",
+			"title": "Pulp Fiction",
+			"releaseDate": "2020-07-07",
+			"genreIds": ["1"],
+			"thumbnail": "https://cdn.cinematerial.com/p/297x/hmc4otl5/pulp-fiction-theatrical-movie-poster-md.jpg?v=1479233327"
+		},
+		{
+			"id": "2",
+			"title": "Bohemian Rhapsody",
+			"releaseDate": "2010-07-07",
+			"genreIds": [
+				"2"
+			],
+			"thumbnail": "https://www.showtimes.com/images/news/2018/11/bohemian-rhapsody-127083.jpg"
+		},
+		{
+			"id": "3",
+			"title": "Kill Bill Volume 2",
+			"releaseDate": "2010-01-07",
+			"genreIds": [
+				"1", "4"
+			],
+			"thumbnail": "https://m.media-amazon.com/images/M/MV5BNmFiYmJmN2QtNWQwMi00MzliLThiOWMtZjQxNGRhZTQ1MjgyXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UY1200_CR90,0,630,1200_AL_.jpg"
+		},
+		{
+			"id": "4",
+			"title": "Avengers Infinity War",
+			"releaseDate": "1998-12-12",
+			"genreIds": [
+				"3", "4"
+			],
+			"thumbnail": "http://ems-media-prod.s3.amazonaws.com/styles/clio_aotw_ems_image_details_retina/s3/entry_attachments/image/46/1265/26343/46337/w3XORYUDxH53iiuWRw6nqrZdwybBM0kI88F9ccHiDmw.jpg"
+		},
+		{
+			"id": "5",
+			"title": "Inception",
+			"releaseDate": "2018-07-07",
+			"genreIds": [
+				"1"
+			],
+			"thumbnail": "https://cbsnews1.cbsistatic.com/hub/i/r/2011/01/06/e7644f57-a642-11e2-a3f0-029118418759/thumbnail/640x949/9279199bb342d25e8d3508aeb5e56d2a/Inception_Poster.jpg"
+		},
+		{
+			"id": "6",
+			"title": "Reservior Dogs",
+			"releaseDate": "2019-07-07",
+			"genreIds": [
+				"1", "2", "3", "4"
+			],
+			"thumbnail": "https://i.pinimg.com/474x/7c/76/01/7c7601b6b26a84a5e557ec0dc191f4b3.jpg"
+		}
+	]
+}
