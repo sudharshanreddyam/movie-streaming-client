@@ -1,10 +1,10 @@
 {
   "name": "react-typescript-starter",
   "version": "1.0.0",
-  "description": "Blank project with React, TypeScript, Redux and Styled Components",
+  "description": "Movie Streaming Client application",
   "main": "index.js",
   "repository": "https://github.com/sanderyt/react-typescript-starter.git",
-  "author": "Sander van Rijsoort <hallo@svanrijsoort.nl>",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --open --hot --mode=development",
